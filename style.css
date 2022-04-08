@@ -1,0 +1,98 @@
+/* challange-01 */
+.navbar-brand {
+  background-color: blue;
+  width: 92px;
+  height: 32px;
+  font-family: viga;
+  font-size: 32px;
+}
+.red {
+  color: red;
+}
+
+nav {
+  background-color: #c4c4c4 !important;
+}
+nav a.nav-item {
+  color: black !important;
+}
+
+/* Untuk di Desktop */
+@media (min-widht: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+}
+
+.elips {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elips-yellow {
+  background-color: yellow;
+}
+
+.elips-pink {
+  background-color: salmon;
+}
+
+.elips-blue {
+  background-color: blue;
+}
+
+.elips-green {
+  background-color: green;
+}
+
+.card-testi {
+  height: 200px;
+  padding: 50px;
+  margin: 30px 50px;
+  background-color: #eaeaea;
+  border-radius: 25px;
+}
+
+.star-gold {
+  color: gold;
+}
+
+.sewa-mobil {
+  color: white;
+}
+
+.card-header {
+  justify-content: space-between;
+  display: flex;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-envelope-o {
+  color: white;
+}
+
+.fa-commenting-o {
+  color: white;
+}
